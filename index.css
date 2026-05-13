@@ -319,7 +319,7 @@ body {
 .icon-bg-circle {
   width: 64px;
   height: 64px;
-  background-color: #f4f1eb;
+  background-color: #efefea;
   border-radius: 50%;
   margin: 0 auto 12px auto;
   position: relative;
@@ -540,8 +540,6 @@ body {
   border-radius: 16px;
   padding: 20px 0;
   text-align: center;
-
-  /* Ye raha aapka Naya Premium Box Shadow */
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
@@ -567,7 +565,8 @@ body {
   text-align: left;
   font-size: 13px;
   line-height: 1.4;
-  color: #5a5a5a;
+  color: #1a1a1a;
+  font-weight: 800;
 }
 
 .trust-text strong {
@@ -581,10 +580,7 @@ body {
   width: 1px;
   height: 40px;
   background-color: #dcd9d3;
-
-  /* Khiskane ke liye: */
-  transform: translateX(-22px); /* Minus (-) lagane se LEFT jayega */
-  /* transform: translateX(10px); */ /* Bina minus ke RIGHT jayega */
+  transform: translateX(-22px);
 }
 
 #trust-divider2 {
@@ -593,10 +589,7 @@ body {
   width: 1px;
   height: 40px;
   background-color: #dcd9d3;
-
-  /* Khiskane ke liye: */
-  transform: translateX(-4px); /* Minus (-) lagane se LEFT jayega */
-  /* transform: translateX(10px); */ /* Bina minus ke RIGHT jayega */
+  transform: translateX(-4px);
 }
 
 /* =========================================
@@ -610,7 +603,7 @@ body {
   }
 
   .indent {
-    margin-left: 40px;
+    margin-left: 5px;
   }
 
   .left-content {
@@ -701,7 +694,7 @@ body {
   }
 
   .indent {
-    margin-left: 30px;
+    margin-left: 4px;
   }
 
   .description {
@@ -786,7 +779,7 @@ body {
   }
 
   .indent {
-    margin-left: 20px;
+    margin-left: 3px;
   }
 
   .description {
