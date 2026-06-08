@@ -686,6 +686,7 @@ body {
 
       .right-content {
          text-align: center;
+         transform: translateX(7.8%);
          font-size: 0;
 
          .hero-image-box {
@@ -816,6 +817,7 @@ body {
 
       .right-content {
          text-align: center;
+         transform: translateX(0);
 
          .hero-image-box {
             width: 73.7%;
